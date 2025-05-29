@@ -1,11 +1,15 @@
+<!-- @format -->
+
 # Team Spirit Booking Platform
 
 ## Project Progress Update (as of May 29, 2025)
 
 ### Overview
+
 This project is a modern hotel and travel booking platform inspired by leading travel sites. It is built with React, React Router, Tailwind CSS, and Vite for a fast, responsive, and visually appealing user experience.
 
 ### Features Implemented
+
 - **Navigation Bar**
   - Responsive navbar with dropdowns for Hotels, Guest House, Service Apartments, and Activities
   - Icons for each main navigation item
@@ -30,6 +34,7 @@ This project is a modern hotel and travel booking platform inspired by leading t
   - Informational pages for team and contact
 
 ### Tech Stack
+
 - React (with functional components)
 - React Router v6+
 - Tailwind CSS
@@ -37,11 +42,13 @@ This project is a modern hotel and travel booking platform inspired by leading t
 - React Icons
 
 ### Folder Structure
+
 - `src/components/` — Navbar and shared UI components
 - `src/components/pages/` — All main pages and subpages
 - `src/assets/` — Images and static assets
 
 ### Next Steps
+
 - Add backend integration for real booking/search
 - Implement authentication and user accounts
 - Add booking/payment flows
