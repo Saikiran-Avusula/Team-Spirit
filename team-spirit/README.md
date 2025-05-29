@@ -1,19 +1,52 @@
-<!-- @format -->
+# Team Spirit Booking Platform
 
-# React + Vite
+## Project Progress Update (as of May 29, 2025)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
+This project is a modern hotel and travel booking platform inspired by leading travel sites. It is built with React, React Router, Tailwind CSS, and Vite for a fast, responsive, and visually appealing user experience.
 
-Currently, two official plugins are available:
+### Features Implemented
+- **Navigation Bar**
+  - Responsive navbar with dropdowns for Hotels, Guest House, Service Apartments, and Activities
+  - Icons for each main navigation item
+  - Clean, modern dropdowns with smooth transitions
+  - Mobile menu with collapsible dropdowns
+- **Home Page**
+  - Hero section with search bar and image
+  - Popular destinations grid
+  - Explore by category (Luxury/Budget Hotels, Apartments, Activities)
+  - Promotional banner for deals
+- **Hotels Section**
+  - Luxury Hotels, Budget Hotels, and Hotel Deals pages
+- **Guest House Section**
+  - Family Guest Houses and Pet Friendly pages
+- **Service Apartments Section**
+  - City View Apartments and Premium Suites pages
+- **Activities Section**
+  - Adventure Tours and City Walks pages
+- **Coupons Page**
+  - Modern coupon cards with codes and copy buttons
+- **About/Contact Us Pages**
+  - Informational pages for team and contact
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack
+- React (with functional components)
+- React Router v6+
+- Tailwind CSS
+- Vite
+- React Icons
 
-## Expanding the ESLint configuration
+### Folder Structure
+- `src/components/` — Navbar and shared UI components
+- `src/components/pages/` — All main pages and subpages
+- `src/assets/` — Images and static assets
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Next Steps
+- Add backend integration for real booking/search
+- Implement authentication and user accounts
+- Add booking/payment flows
+- Improve accessibility and add more tests
 
-## Feedback - from team
+---
 
-1. Customer Support - 24X7 => 
-2.
+**Team:** Please review the above progress and suggest any new features or improvements. All UI and navigation basics are in place and ready for further development!
