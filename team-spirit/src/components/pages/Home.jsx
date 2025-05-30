@@ -17,27 +17,30 @@ const Home = () => {
           </form>
         </div>
         <div className="flex-1 flex justify-center">
-          <img src="/assets/hero-hotel.png" alt="Hotel" className="w-80 h-64 object-cover rounded-2xl shadow-lg border border-blue-100 bg-blue-50" />
+          <img src="https://images.unsplash.com/photo-1504470695779-75300268aa0e?auto=format&fit=crop&w=800&q=80" alt="Modern Hotel Lobby" className="w-full h-64 object-cover rounded-2xl shadow-lg border border-blue-100 bg-blue-50" style={{maxWidth: '100%'}} />
         </div>
       </div>
+
+      
       {/* Popular Destinations */}
       <div className="w-full max-w-5xl px-4">
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Popular Destinations</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="bg-blue-50 rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col items-center cursor-pointer">
-            <img src="/assets/city1.jpg" alt="City 1" className="w-24 h-20 object-cover rounded-lg mb-2" />
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Mumbai" className="w-full h-40 object-cover rounded-lg mb-2" />
             <span className="font-semibold text-blue-700">Mumbai</span>
           </div>
+          
           <div className="bg-blue-50 rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col items-center cursor-pointer">
-            <img src="/assets/city2.jpg" alt="City 2" className="w-24 h-20 object-cover rounded-lg mb-2" />
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80" alt="Goa" className="w-full h-40 object-cover rounded-lg mb-2" />
             <span className="font-semibold text-blue-700">Goa</span>
           </div>
           <div className="bg-blue-50 rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col items-center cursor-pointer">
-            <img src="/assets/city3.jpg" alt="City 3" className="w-24 h-20 object-cover rounded-lg mb-2" />
+            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Delhi" className="w-full h-40 object-cover rounded-lg mb-2" />
             <span className="font-semibold text-blue-700">Delhi</span>
           </div>
           <div className="bg-blue-50 rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col items-center cursor-pointer">
-            <img src="/assets/city4.jpg" alt="City 4" className="w-24 h-20 object-cover rounded-lg mb-2" />
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=400&q=80" alt="Bangalore" className="w-full h-40 object-cover rounded-lg mb-2" />
             <span className="font-semibold text-blue-700">Bangalore</span>
           </div>
         </div>
@@ -47,19 +50,19 @@ const Home = () => {
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Explore by Category</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <a href="/hotels/luxury" className="bg-white border border-blue-200 rounded-xl shadow hover:shadow-lg transition p-6 flex flex-col items-center text-center cursor-pointer">
-            <img src="/assets/luxury-hotel.jpg" alt="Luxury Hotels" className="w-16 h-16 object-cover rounded-full mb-2" />
+            <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=200&q=80" alt="Luxury Hotels" className="w-full h-30 object-cover rounded-lg mb-2" />
             <span className="font-semibold text-blue-700">Luxury Hotels</span>
           </a>
           <a href="/hotels/budget" className="bg-white border border-green-200 rounded-xl shadow hover:shadow-lg transition p-6 flex flex-col items-center text-center cursor-pointer">
-            <img src="/assets/budget-hotel.jpg" alt="Budget Hotels" className="w-16 h-16 object-cover rounded-full mb-2" />
+            <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=200&q=80" alt="Budget Hotels" className="w-full h-30 object-cover rounded-lg mb-2" />
             <span className="font-semibold text-green-700">Budget Hotels</span>
           </a>
           <a href="/service-apartments/cityview" className="bg-white border border-purple-200 rounded-xl shadow hover:shadow-lg transition p-6 flex flex-col items-center text-center cursor-pointer">
-            <img src="/assets/apartment.jpg" alt="Service Apartments" className="w-16 h-16 object-cover rounded-full mb-2" />
+            <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=200&q=80" alt="Service Apartments" className="w-full h-30 object-cover rounded-lg mb-2" />
             <span className="font-semibold text-purple-700">Service Apartments</span>
           </a>
           <a href="/activities/adventure" className="bg-white border border-orange-200 rounded-xl shadow hover:shadow-lg transition p-6 flex flex-col items-center text-center cursor-pointer">
-            <img src="/assets/adventure.jpg" alt="Adventure" className="w-16 h-16 object-cover rounded-full mb-2" />
+            <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=200&q=80" alt="Adventure" className="w-full h-30 object-cover rounded-lg mb-2" />
             <span className="font-semibold text-orange-700">Adventure Tours</span>
           </a>
         </div>
